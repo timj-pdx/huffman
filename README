@@ -1,0 +1,27 @@
+Huffman Compression
+
+Compress a File based upon Huffman Coding
+
+compress
+	./compress data
+
+	This creates 'data.hc' from 'data'
+
+uncompress
+	./uncmopress data
+
+	This creates 'data.uc' from 'data.hc'
+
+ascii
+
+    Built by running: make ascii. This executable will create a version of
+    'data' for testing which will contain every ASCII character. The
+    resulting file is actually larger than the unencoded version.
+
+For Testing:
+    make testit
+    	 creates and runs a simple test
+
+
+
+	
